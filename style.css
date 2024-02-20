@@ -76,6 +76,8 @@ body{
     margin-right: 38px;
 }
 
+
+/* HERO SECTION STYLE STARTS */
 .hero{
     background-image: url("./Assets/hero.jpg");
     height: 80vh;
@@ -83,4 +85,46 @@ body{
     background-size: contain;
     /* background-repeat: no-repeat; */
     background-position-x: 50%;
+}
+
+        /* New Arrival box inside hero section */
+
+.new-arrival{
+    /* border: 2px solid red; */
+    background-color: #fff3e3;
+    width: 40%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 0px 40px;
+    position: relative;
+    top: 15.2%;
+    left: 50%;
+}
+
+.new-arrival > p{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.new-arrival > h1{
+    color: #b98e2f;
+}
+
+.new-arrival p:nth-child(4){
+    /* color:red; */
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 38px;
+}
+
+.new-arrival-btn {
+    width: 143px;
+    height: 54px;
+    background-color: #b98e2f;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
 }
