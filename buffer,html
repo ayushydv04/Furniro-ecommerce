@@ -1,0 +1,23 @@
+<div class="range-main">
+        <h2>Browse The Range</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, commodi?</p>
+
+        <div class="range-cards">
+
+            <div class="range-card">
+                <img src="Assets/Dinning.png" alt="dinning image">
+                <p>Dinning</p>
+            </div>
+
+            <div class="range-card">
+                <img src="Assets/Living.png" alt="dinning image">
+                <p>Living</p>
+            </div>
+
+            <div class="range-card">
+                <img src="Assets/Bedroom.png" alt="dinning image">
+                <p>Bedroom</p>
+            </div>
+            
+        </div>
+    </div>

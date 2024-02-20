@@ -1,0 +1,19 @@
+/* range section */
+
+.range-main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.range-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+}
+
+
+.range-card img {
+    width: 320px;
+}
