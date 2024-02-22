@@ -17,7 +17,7 @@ li:hover{
 }
 
 body{
-    height: 400vh;
+    height: 625vh;
 }
 
 .nav{
@@ -321,9 +321,9 @@ body{
 }
 
 .footer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
-    height: 65vh;
+    height: 48vh;
     margin-top: 20px; 
 }
 
@@ -405,14 +405,32 @@ body{
 }
 
 .footer-list-4 button{
+    /* display: inline-block; */
     border: none;
     background: transparent;
-    padding: 5px 10px;
-    font-size: 15px;
-    text-decoration: underline;
+    padding: 2px 0px;
+    font-size: 13.5px;
+    border-bottom: 1.5px solid black;
+    cursor: pointer;
+    font-weight: 600;
+    /* text-decoration: underline; */
 }
 
 input{
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 1.5px solid black;
+    outline: none;
+}
+
+.line2{
+    margin: 30px auto;
+    margin-bottom: 25px;
+    background-color: grey;
+    width: 85%;
+}
+
+.mini-footer{
+    margin-left: 100px;
+    font-size: 15px;
+    font-weight: 500;
 }
