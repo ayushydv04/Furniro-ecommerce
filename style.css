@@ -411,3 +411,8 @@ body{
     font-size: 15px;
     text-decoration: underline;
 }
+
+input{
+    border: none;
+    border-bottom: 2px solid black;
+}
